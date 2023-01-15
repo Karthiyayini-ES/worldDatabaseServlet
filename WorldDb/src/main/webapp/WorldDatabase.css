@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#wrapper{
+width: 300px;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 20px 20px  ; 
+border-radius: 20px;
+margin-top:5% ;
+
+
+
+}
+.InputBox{
+    margin: 15px 0px;
+    width: 100%;
+    /*text-align: center;*/
+    font-size: 10px;
+    padding: 6px 6px 6px 10px ;
+    border-radius: 10px;
+    /*border: darkgray;*/
+    border: 1px solid grey;
+    outline: none;
+    cursor: pointer;
+
+
+}
+#login{
+    margin: 10px 20px 20px;
+}
